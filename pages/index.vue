@@ -1,7 +1,9 @@
 <template>
-  <Tutorial/>
+  <div>test</div>
 </template>
 
 <script>
-export default {}
+export default {
+  layout: 'DashboardLayout',
+};
 </script>
