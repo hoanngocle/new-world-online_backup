@@ -16,13 +16,14 @@
     "core-js": "^3.15.1",
     "nuxt": "^2.15.7",
     "vue-feather-icons": "^5.1.0",
+    "vue-perfect-scrollbar": "^0.2.1",
     "vue-ripple-directive": "^2.0.1"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.14.7",
+    "@nuxtjs/composition-api": "^0.30.0",
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/eslint-module": "^3.0.2",
-    "@vue/composition-api": "^1.4.0",
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^2.0.0",

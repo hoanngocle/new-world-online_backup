@@ -1,7 +1,6 @@
 <template>
   <b-nav-item @click="mode = 'light' ? 'light' : 'dark'">
     <feather-icon size="21" :icon="`${isDark ? 'Sun' : 'Moon'}Icon`" />
-    <feather-icon size="21" icon="MoonIcon" />
   </b-nav-item>
 </template>
 
@@ -22,7 +21,6 @@ export default {
 
     // const isDark = computed(() => mode.value === 'dark');
     const isDark = 'light';
-    console.log(isDark);
     return { mode, isDark };
   },
 };

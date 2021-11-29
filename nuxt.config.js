@@ -21,7 +21,11 @@ export default {
   css: ['@/assets/scss/core.scss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: '@/plugins/plugins.js' }],
+  plugins: [
+    { src: '@/plugins/feather-icon.js', ssr: false },
+    { src: '@/plugins/vue-perfect-scrollbar.js', ssr: false },
+    { src: '@/plugins/vue-ripple-directive.js', ssr: false },
+  ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -30,6 +34,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
+    '@nuxtjs/composition-api/module',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
